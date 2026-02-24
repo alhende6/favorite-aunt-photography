@@ -237,19 +237,39 @@ main img {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 30px;
-}
-
-th, td {
-    border: 1px solid var(--secondary);
-    padding: 14px;
-    text-align: left;
+    margin-top: 40px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 th {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     color: white;
-    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 18px;
+    text-align: left;
+}
+
+td {
+    padding: 18px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover {
+    background-color: rgba(121, 57, 111, 0.05);
+}
+
+td:last-child {
+    font-weight: 600;
+    color: var(--primary);
 }
 
 /* ============================= */
