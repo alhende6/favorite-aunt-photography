@@ -151,6 +151,25 @@ main img {
     margin-bottom: 20px;
 }
 /* ============================= */
+/* CALENDAR SECTION (PACKAGES)   */
+/* ============================= */
+
+.calendar-section {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.calendar-section iframe {
+    flex: 2;
+    width: 100%;
+}
+
+.calendar-text {
+    flex: 1;
+}
+/* ============================= */
 /* CALL TO ACTION BUTTON         */
 /* ============================= */
 
