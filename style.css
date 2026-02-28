@@ -79,7 +79,7 @@ nav a:hover {
 
 .hero-wrapper {
     position: relative;
-    height: 650px;
+    min-height: 650px;
     margin-top: 40px;
     margin-bottom: 120px;
 }
@@ -111,10 +111,7 @@ nav a:hover {
 /* RIGHT TEXT COLUMN */
 
 .right-overlay {
-    position: absolute;
-    top: 80px;
-    right: 60px;
-    width: 28%;
+    width: 30%;
     background-color: rgba(255,255,255,0.92);
     padding: 35px;
     border-radius: 18px;
