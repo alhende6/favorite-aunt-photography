@@ -78,13 +78,11 @@ nav a:hover {
 /* ============================= */
 
 .hero-wrapper {
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
+    position: relative;
+    min-height: 850px;   /* increase this from 650 */
     margin-top: 40px;
     margin-bottom: 120px;
 }
-
 .hero-background img {
     width: 100%;
     height: 100%;
@@ -95,12 +93,14 @@ nav a:hover {
 /* LEFT IMAGE COLUMN */
 
 .left-overlay {
+    position: absolute;
+    top: 60px;
+    left: 40px;
     width: 18%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
 .left-overlay img {
     width: 100%;
     border-radius: 12px;
@@ -109,7 +109,10 @@ nav a:hover {
 /* RIGHT TEXT COLUMN */
 
 .right-overlay {
-    width: 28%;
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    width: 30%;
     background-color: rgba(255,255,255,0.92);
     padding: 35px;
     border-radius: 18px;
